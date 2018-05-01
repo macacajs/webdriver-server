@@ -1,8 +1,9 @@
 .travis.yml
 test/
-.jshintrc
-.jshintignore
+.eslintrc
+.eslintrcignore
 coverage/
 logs/
+.nyc_output
 *.sw*
 *.un~

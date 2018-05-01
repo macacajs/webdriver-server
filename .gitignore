@@ -1,10 +1,10 @@
 .DS_Store
 node_modules
 npm-debug.log
-*.out
 .idea/*
 Thumbs.db
 coverage/
+.nyc_output
 *.sw*
 *.un~
 logs/
