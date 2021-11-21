@@ -5,6 +5,6 @@ const assert = require('assert');
 
 describe('lib/index.js', function() {
   it('should be ok', function() {
-    assert.ok(Webdriver);
+    assert(Webdriver);
   });
 });

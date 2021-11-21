@@ -1,9 +1,0 @@
-.travis.yml
-test/
-.eslintrc
-.eslintrcignore
-coverage/
-logs/
-.nyc_output
-*.sw*
-*.un~
