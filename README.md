@@ -1,13 +1,13 @@
 # webdriver-server
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+[![CI][CI-image]][CI-url]
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/webdriver-server.svg
 [npm-url]: https://npmjs.org/package/webdriver-server
-[travis-image]: https://img.shields.io/travis/macacajs/webdriver-server.svg
-[travis-url]: https://travis-ci.org/macacajs/webdriver-server
+[CI-image]: https://github.com/macacajs/webdriver-server/actions/workflows/ci.yml/badge.svg
+[CI-url]: https://github.com/macacajs/webdriver-server/actions/workflows/ci.yml
 [download-image]: https://img.shields.io/npm/dm/webdriver-server.svg
 [download-url]: https://npmjs.org/package/webdriver-server
 
