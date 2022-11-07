@@ -39,9 +39,14 @@
     "eslint-config-egg": "^7.1.0",
     "eslint-config-prettier": "^4.1.0",
     "git-contributor": "1",
+    "husky": "^8.0.1",
     "mocha": "*",
-    "nyc": "^11.7.1",
-    "pre-commit": "*"
+    "nyc": "^11.7.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "scripts": {
     "test": "nyc --reporter=lcov --reporter=text mocha",
@@ -49,8 +54,5 @@
     "ci": "npm run lint && npm run test",
     "contributor": "git-contributor"
   },
-  "precommit": [
-    "lint"
-  ],
   "license": "MIT"
 }
